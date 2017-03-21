@@ -1,3 +1,24 @@
+  /* Backgrounds will cover all the section
+* --------------------------------------- */
+.section{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  .gradient {
+    z-index: 999999;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+  }
+}
+.slide{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 .fp-enabled body,
 html.fp-enabled {
   margin: 0;
